@@ -27,13 +27,13 @@ header{
 }
 div{
     display: flex;
-    width: 600px;
-    height: 430px;
+    width: 36em;
+    height: 30em;
     
     
 }
 div section{
-    width: 0px;
+    width: 0em;
     flex-grow: 1;
     object-fit: cover;
     opacity: 0.8;
@@ -45,7 +45,7 @@ div section{
 }
 div section:hover{
     cursor: crosshair;
-    width: 200px;
+    width: 10em;
     opacity: 1;
     filter: contrast(120%);
 }
