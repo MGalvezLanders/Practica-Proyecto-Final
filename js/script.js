@@ -4,7 +4,7 @@ const contenedor = document.getElementById('paleta');
 function generarColorHex() { //genera el color hex
     const numero = Math.floor(Math.random() * 16777215);
     return "#" + numero.toString(16).padStart(6, "0");
-}
+}                                                                  
 function esColorOscuro(hex) {
   const r = parseInt(hex.substring(1, 3), 16);
   const g = parseInt(hex.substring(3, 5), 16);
